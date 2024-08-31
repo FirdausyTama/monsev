@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="assets/favicon.png" rel="icon" type="image/x-icon">
+    <title>Month Versary !</title>
+</head>
+<body>
+    <section class="hero">
+        <!-- Video background -->
+        <video class="background-video" autoplay loop muted>
+            <source src="assets/love.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="hero-text">
+            <h1>Happy Month Versary Sayang</h1>
+            <button class="cta-button" onclick="window.location.href='game.html'">Game Kuis</button>
+        </div>
+    </section>
+
+    <section class="cards-section">
+        <div class="card">
+            <img src="assets/ayk.jpg" alt="Card Image 1">
+            <h3>Ini Foto Kamu</h3>
+            <p>Nadia Cahya</p>
+        </div>
+        <div class="card">
+            <img src="assets/er.jpg" alt="Card Image 2">
+            <h3>Ini Foto Aku</h3>
+            <p>Atama Cahya</p>
+        </div>
+        <div class="card">
+            <img src="assets/berdua.jpg" alt="Card Image 3">
+            <h3>Dan Ini Kita Berdua</h3>
+            <p>Btw ini web ada lagunya loh</p>
+        </div>
+    </section>
+
+    <!-- Section 3: Surat Cinta -->
+    <section class="surat-section">
+                <!-- Video background -->
+                <video class="background-video" autoplay loop muted>
+                    <source src="assets/love.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+        <div class="surat-container">
+            <h2>Surat Cinta untukmu</h2>
+            <p>Sayangku,</p>
+            <p>
+                Hari ini menandakan penuh cinta dan kebahagiaan bersama. Aku begitu bersyukur atas setiap momen yang kita habiskan bersama. Semoga kebahagiaan kita terus tumbuh dan cinta kita semakin kuat setiap harinya.
+            </p>
+            <p>
+                Terima kasih telah menjadi yang terbaik untukku, dan untuk semua kenangan indah yang kita ciptakan bersama. Aku mencintaimu lebih dari kata-kata yang bisa diungkapkan.
+            </p>
+            <p>
+                Your BF,
+                <br>
+                [Atama Cahya El-Firdausy]
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; Month Versary 1 September 2024</p>
+    </footer>
+
+    <!-- Audio element to play music automatically -->
+    <audio id="background-music" autoplay loop>
+        <source src="assets/lagu.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- JavaScript to show alerts -->
+    <script>
+        window.onload = function() {
+            showAlerts(3);
+        }
+
+        function showAlerts(count) {
+            if (count > 0) {
+                alert('Aku Sayang Kamu !');
+                showAlerts(count - 1);
+            }
+        }
+    </script>
+</body>
+</html>
